@@ -19,15 +19,19 @@ public class PlayerWeaponController : MonoBehaviour
        
     }
 
-
+    /// <summary>
+    /// ÊµÀý»¯ÎäÆ÷
+    /// </summary>
+    /// <returns></returns>
     IEnumerator InstantiateWeapon()
     {
-        //yield return new WaitForSeconds(0.1f);
-        yield return null;
+        yield return null;//ÑÓ³ÙÒ»Ö¡
         Instantiate(weappon, weaponTransform);
     }
 
-
+    /// <summary>
+    /// Éä»÷
+    /// </summary>
     private void Shoot()
     {
        GetComponentInChildren<Animator>().SetTrigger("Fire");

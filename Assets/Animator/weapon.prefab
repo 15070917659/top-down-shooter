@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 6374749732205512932}
   m_Layer: 0
   m_Name: weapon
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -187,6 +187,8 @@ MonoBehaviour:
   autoRifle: {fileID: 4415569949505320789}
   shotgun: {fileID: 403812507160679694}
   rifle: {fileID: 540519964922775200}
+  rigIncreaseStep: 2
+  leftHandIKIncreaseStep: 2
 --- !u!1 &1684281208000006802
 GameObject:
   m_ObjectHideFlags: 0

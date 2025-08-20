@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - LeftHand_IK_target
+  - Rig
+  - Weapon
   layers:
   - Default
   - TransparentFX
